@@ -1,11 +1,9 @@
-import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import React from "react";
-
-import Header from "../components/Header";
+import Header from "../components/Header"; // Update this path if needed
 
 test("displays the text 'hello from the Header!'", () => {
-  render(<Header />);
+  render(<Header />); // Render the Header component
 
+  // Check if the text is in the document
   expect(screen.queryByText("hello from the Header!")).toBeInTheDocument();
 });

@@ -110,6 +110,13 @@ So, all together, the test is:
   fails
 
 ## Code Along
+Be sure to keep these debugging tools handy when you're writing tests so you can
+check if you're testing your elements the right way.
+
+## Conclusion
+
+Being able to run the tests and understand the output is an important skill to
+develop as a React developer. Make sure to take some time reading through the
 
 There are a couple of tests defined for this lab so you can get some practice.
 
